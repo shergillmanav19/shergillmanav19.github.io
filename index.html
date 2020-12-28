@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manav Shergill</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="home" id="home">
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">Languages</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Manav Shergill</h1>
+        <h6>Tech enthusiast || 3rd year Software Engineering student at University of Victoria</h6>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img src="images/profile.JPG" alt="" />
+        </div>
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            Hi, my name is Manav Shergill and i am a 3rd year Software
+            Engineering Student at the University of Victoria. I am currently 20
+            years old and have a passion for software, technology, and
+            basketball. I have taken various fundamental programming classes
+            throughout my studies at Uvic and found them to be super helpful and interesting. Java is my favoruite because it is the language that
+            helped me understand objected oriented programming. I have also
+            explored and worked with several other programming languages such as
+            C, Python, and React throughout assignments or during my
+            personal time. After working on personal projects and group projects
+            related to software, my interest grew exponentially in programming
+            and i decided to pursue Software Engineering as my career.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a
+                  href="https://github.com/shergillmanav19"
+                  target="_blank"
+                  class="icon-link"
+                >
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/manav-shergill-a37b51192/"
+                  target="_blank"
+                  class="icon-link"
+                >
+                  <i class="fab fa-linkedin-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>Personal projects i worked on to improve my technical skills</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description">
+            <h6><i>Java Project</i></h6>
+            <h1>Tic Tac Toe game</h1>
+            <p>
+              This was one of my first personal projects with Java. In this
+              project, I create a tic tac toe game to be played by 2 people
+              alternating turns in the terminal. This project led to me
+              familiarizing myself with the objected oriented programming. I
+              also learned about taking the user input through the terminal
+              which was done using the Scanner class.
+            </p>
+            <a
+              href="https://github.com/shergillmanav19/Tic-Tac-Toe"
+              target="_blank"
+              class="cta"
+            >
+              View Code</a
+            >
+          </div>
+          <div class="portfolio-img tic has-margin-right">
+            <img src="images/tic-tac-toe.jpg" alt="" />
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img api has-margin-left">
+            <img src="images/api.png" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6><i>React Project</i></h6>
+            <h1>Search for Anything</h1>
+            <p>
+              In this project i use React to make calls to the Unsplash API
+              which returns me the top 5 pictures associated with the keyword
+              that was entered. Unsplash is a website which allows users to get
+              stock free photos. I wanted to learn how to make calls to an API,
+              so i decided to implement this project. I learned what the
+              response looks like from an API and how to parse it and then later
+              display it on the page. Some CSS3 was used to make the webpage
+              look appealing.
+            </p>
+            <a
+              href="https://github.com/shergillmanav19/SearchForAnything"
+              target="_blank"
+              class="cta"
+            >
+              View Code</a
+            >
+          </div>
+          <!-- <div class="portfolio-img api has-margin-right">
+            <img src="images/api.png" alt="" />
+          </div> -->
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description">
+            <h6><i>Club Project</i></h6>
+            <h1>Uvic Schedule Scraper</h1>
+            <p>
+              In this project i was part of a team of 4 people. The purpose of
+              the project was to create an API to allow easy access to Uvic's
+              course scheduling for all of the classes offered. The main purpose
+              of creating the API is to use for creating a timetable builder
+              webapp which would make the scheduling process very easy for the
+              Uvic students. We used TypeScript and Node.js.
+            </p>
+            <a
+              href="https://github.com/VikeLabs/scheduler-scraper"
+              target="_blank"
+              class="cta"
+            >
+              View Code</a
+            >
+          </div>
+          <div class="portfolio-img uvic has-margin-right">
+            <img src="images/Uvic.png" alt="" />
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img calculator has-margin-left">
+            <img src="images/Calculator-image.png" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6><i>React Project</i></h6>
+            <h1>Calculator App</h1>
+            <p>
+              In this project i used React to make a calculator app. Some CSS
+              was used to style the webpage. This project was made to practice
+              how the "State" works in React. I had to manage the state as the
+              user was typing in their numbers to calculate using the app.
+            </p>
+            <a
+              href="https://github.com/shergillmanav19/Calculator"
+              target="_blank"
+              class="cta"
+            >
+              View Code</a
+            >
+          </div>
+          <!-- <div class="portfolio-img calculator has-margin-right">
+            <img src="images/Calculator-image.png" alt="" />
+          </div> -->
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description">
+            <h6><i>React Project</i></h6>
+            <h1>Hangman Game</h1>
+            <p>
+              In this project i used React to make a Hangman game. This project
+              was made to practice about keeping the "State" in React and also
+              resetting state. The resetting of state would happen if the user
+              has won or lost the game. I implemented the buttons "Play again"
+              or "Reset" which would reset the state once they were clicked. I
+              also used b
+            </p>
+            <a href="#" target="_blank" class="cta"> View Code</a>
+          </div>
+          <div class="portfolio-img hangman has-margin-right">
+            <img src="images/hangman.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Experience</h1>
+          <h6>My experience with technical jobs</h6>
+        </div>
+        <div class="timeline">
+          <ul class="worked" id="worked">
+            <li class="date" data-date="Jan-Apr 2020">
+              <h1>Ocean Networks Canada</h1>
+              <h2>Junior Software Developer</h2>
+              <p>
+                This was my first Coop as a software engineering student. For
+                most part of my workterm i used selenium to create automated
+                tests for the different web pages. However, in the start i did
+                some unit and integration testing. 3 months into the workterm i
+                was given a React task. The task was to adjust and add different
+                columns to the newly developing web page. During my last month,
+                i was put in charge of the Jenkins build to check if any
+                unexpected classes failed. If they did it was my duty to fix
+                them. <br /><br />I gained experience with the following tools/technologies:
+              </p>
+              <ul class="things-learned">
+                
+                <li class="learned">Selenium</li>
+                <li class="learned">Jira</li>
+                <li class="learned">Jenkins</li>
+                <li class="learned">React</li>
+                <li class="learned">Git version control</li>
+              </ul>
+            </li>
+          
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Programming Languages</h1>
+          <h6>List of programming languages that I am competent with.</h6>
+        </div>
+        <div class="my-languages">
+          <div class="language">
+            <div class="icon-container">
+              <i class="fab fa-java"></i>
+            </div>
+            <h1>Java</h1>
+            <p></p>
+          </div>
+          <div class="language">
+            <div class="icon-container">
+              <i class="fab fa-python"></i>
+            </div>
+            <h1>Python</h1>
+          </div>
+          <div class="language">
+            <div class="icon-container">
+              <i class="fas fa-copyright"></i>
+            </div>
+            <h1>C</h1>
+          </div>
+          <div class="language">
+            <div class="icon-container">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h1>JavaScript</h1>
+          </div>
+          <div class="language">
+            <div class="icon-container">
+              <i class="fab fa-node"></i>
+            </div>
+            <h1>node.JS</h1>
+          </div>
+          <div class="language">
+            <div class="icon-container">
+              <i class="fab fa-react"></i>
+            </div>
+            <h1>React</h1>
+          </div>
+          <div class="language">
+            <div class="icon-container">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h1>HTML5</h1>
+          </div>
+          <div class="language">
+            <div class="icon-container">
+              <i class="fab fa-css3"></i>
+            </div>
+            <h1>CSS3</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Get in touch with me :)</h6>
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Please enter your name here.."
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Please enter your email here.."
+            required
+          />
+          <label for="message">Message:</label>
+          <textarea
+            cols="10"
+            rows="10"
+            name="message"
+            id="message"
+            placeholder="Please enter your message here.. (optional)"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>&copy; 2020 Manav Shergill</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
