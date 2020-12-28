@@ -508,11 +508,9 @@ input[type="submit"]:hover {
 @media screen and (max-width: 758px) {
   body {
     background: url("images/background2.png") no-repeat center fixed;
-    background-size: auto;
+    background-size: cover;
   }
-  .about .container {
-    flex-direction: column;
-  }
+
   .landing-text h1 {
     font-size: 15rem;
   }
@@ -571,6 +569,10 @@ input[type="submit"]:hover {
   }
 }
 @media screen and (max-width: 600px) {
+  body {
+    background: url("images/background2.png") no-repeat center fixed;
+    background-size: cover;
+  }
   .menu-toggler {
     top: 2rem;
     right: 2rem;
@@ -585,10 +587,6 @@ input[type="submit"]:hover {
 
   .nav-link {
     font-size: 3.5rem;
-  }
-
-  .about .container {
-    flex-direction: column;
   }
 
   .profile-img {
