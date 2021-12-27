@@ -63,11 +63,10 @@
             <h6>Myself</h6>
           </div>
           <p>
-            Hi, my name is Manav Shergill and i am a 3rd year Software
-            Engineering Student at the University of Victoria. I am currently 20
-            years old and have a passion for software, technology, and
+            Hi, my name is Manav Shergill and i am a 4rd year Software
+            Engineering Student at the University of Victoria. I have a passion for software, technology, and
             basketball. I have taken various fundamental programming classes
-            throughout my studies at Uvic and found them to be super helpful and interesting. Java is my favoruite because it is the language that
+            throughout my studies at Uvic and found them to be super helpful and interesting. Java is my favorite because it is the language that
             helped me understand objected oriented programming. I have also
             explored and worked with several other programming languages such as
             C, Python, and React throughout assignments or during my
@@ -106,6 +105,64 @@
         <div class="section-heading">
           <h1>Portfolio</h1>
           <h6>Personal projects i worked on to improve my technical skills</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description">
+            <h6><i>React and Flask Project</i></h6>
+            <h1>Profitly</h1>
+            <p>
+              Profitly is a tracker app for stocks from all of the exchanges that i invest on which are Wealthsimple and 
+              Questrade. The web app made using React allows me to switch between different time frames (1d, 1m, 1y) and display all of my positions held
+              for seperate accounts (TFSA, Personal, RRSP). I also have made a backend from scratch using the Flask framework which handles 
+              requests from the frontend such as logging in or a request for data for a different timeline.
+            <br />
+            <br/>
+              The web app only has information about my investments as i didnt want to handle different user sensitive information. Therefore,
+               to use the web app, you would have to login via an admin email which im happy to login with and show it to you over zoom.
+            </p>
+            <a
+              href="https://github.com/shergillmanav19/Profitly"
+              target="_blank"
+              class="cta"
+            >
+              View Code</a
+            >
+            <a
+              href="https://auth-profitly-dev.web.app"
+              target="_blank"
+              class="cta"
+            >
+              View website</a
+            >
+          </div>
+          <div class="portfolio-img tic has-margin-right">
+            <img src="images/istockphoto-1213574690-612x612.jpeg" alt="" />
+          </div>
+        </div>
+         <div class="portfolio-item">
+          <div class="portfolio-img has-margin-left">
+            <img src="images/Screen_Shot_2021-12-26_at_8.03.33_PM-removebg-preview.png" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6><i>TypeScript Project</i></h6>
+            <h1>CourseUP</h1>
+            <p>
+              This project was made for UVIC student so they don't struggle with timetable building for UVIC courses. Current UVIC timetable
+              builder is hard to navigate around and often doesn't show useful information. CourseUP involved a team of developers from VikeLabs (Software club at UVIC) where we all collaborated to work on the app.
+              The feature i ended up creating were the bookmark ,filtering of courses, and a sidebar. This project relied on the UVIC scraper project (listed below in project section)
+              because we needed to scrape the data off of UVIC website to then use it on the web app.
+            </p>
+            <a
+              href="https://courseup.vikelabs.ca/"
+              target="_blank"
+              class="cta"
+            >
+              View Website</a
+            >
+          </div>
+          <!-- <div class="portfolio-img api has-margin-right">
+            <img src="images/api.png" alt="" />
+          </div> -->
         </div>
         <div class="portfolio-item">
           <div class="portfolio-description">
@@ -236,6 +293,56 @@
         </div>
         <div class="timeline">
           <ul class="worked" id="worked">
+            <li class="date" data-date="Dec 2021">
+              <h1>Terraformers (Land trading NFT crypto game)</h1>
+              <h2>Freelance</h2>
+              <p>
+                Terraformes is a crypto game which i decied to do freelance work for in my december
+                holidays. I developed the webapp which allows users to view their inventory, mine and claim lands,
+                and unpack page for unboxing any packs. All of these features were designed by having user priorities in mind.
+                The webapp calls the wax blockchain's smart contracts whenever a user decides to claim or unpack a land. Moreover,
+                i also integrated the wax cloud wallets and anchor wallet capabilities which allows for secure login and easy access of a user's assests.
+                <br /><br />I gained experience with the following tools/technologies:
+              </p>
+              <ul class="things-learned">
+                
+                <li class="learned">React</li>
+                <li class="learned">Wax blockchain</li>
+                <li class="learned">Wax smart contracts</li>
+                <li class="learned">HTML and CSS</li>
+              </ul>
+            </li>
+          
+        </div>
+        <br />
+         <div class="timeline">
+          <ul class="worked" id="worked">
+            <li class="date" data-date="May-Aug 2021">
+              <h1>Gabriel Ross</h1>
+              <h2>IT Co-op</h2>
+              <p>
+                My second co-op work term at Gabriel Ross Inc involved me doing 
+                various tasks throughout the day. My day would usually start with
+                refactoring of php files to use Magento 2 unless a bug came up.
+                I also created a web page with search functionality that displayed the
+                bestselling products in the company. Moreover, i created a seperate web page
+                for bestselling products in their own group to see which group had the bestsellers.
+                I also used SQL queries to scan through data and join tables to get wanted results.
+                <br /><br />I gained experience with the following tools/technologies:
+              </p>
+              <ul class="things-learned">
+                
+                <li class="learned">PHP</li>
+                <li class="learned">Magento</li>
+                <li class="learned">SQL</li>
+                <li class="learned">JQuery</li>
+              </ul>
+            </li>
+          
+        </div>
+        <br />
+        <div class="timeline">
+          <ul class="worked" id="worked">
             <li class="date" data-date="Jan-Apr 2020">
               <h1>Ocean Networks Canada</h1>
               <h2>Junior Software Developer</h2>
@@ -261,32 +368,7 @@
             </li>
           
         </div>
-        <br/>
-        <div class="timeline">
-          <ul class="worked" id="worked">
-            <li class="date" data-date="May-Aug 2021">
-              <h1>Gabriel Ross</h1>
-              <h2>IT Co-op</h2>
-              <p>
-                My second co-op work term at Gabriel Ross Inc involved me doing 
-                various tasks throughout the day. My day would usually start with
-                refactoring of php files to use Magento 2 unless a bug came up.
-                I also created a web page with search functionality that displayed the
-                bestselling products in the company. Moreover, i created a seperate web page
-                for bestselling products in their own group to see which group had the bestsellers.
-                I also used SQL queries to scan through data and join tables to get wanted results.
-                <br /><br />I gained experience with the following tools/technologies:
-              </p>
-              <ul class="things-learned">
-                
-                <li class="learned">PHP</li>
-                <li class="learned">Magento</li>
-                <li class="learned">SQL</li>
-                <li class="learned">JQuery</li>
-              </ul>
-            </li>
-          
-        </div>
+       
       </div>
     </section>
     
