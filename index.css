@@ -197,12 +197,22 @@ li {
 }
 /* End header */
 
+/* Start PDF */
+
+.pdf-details {
+  height: 100vh;
+  width: 100%;
+}
+
+/* End PDF */
+
 /* Start about */
 .about .container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 5em;
 }
 
 .about-heading {
@@ -591,8 +601,8 @@ input[type="submit"]:hover {
   }
 
   .timeline .worked {
-  width: 100%;
-}
+    width: 100%;
+  }
 
   form {
     width: 100%;
