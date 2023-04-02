@@ -197,23 +197,6 @@ li {
 }
 /* End header */
 
-/* Start PDF */
-.pdf .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 100vh;
-  width: 100%;
-}
-
-.pdf-details {
-  height: 100vh;
-  width: 100%;
-}
-
-/* End PDF */
-
 /* Start about */
 .about .container {
   display: flex;
